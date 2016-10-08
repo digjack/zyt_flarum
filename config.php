@@ -1,5 +1,5 @@
 <?php return array (
-  'debug' => true,
+  'debug' => false,
   'database' => 
   array (
     'driver' => 'mysql',
@@ -12,7 +12,7 @@
     'prefix' => '',
     'strict' => false,
   ),
-  'url' => 'http://www.zhuyetang.site:4600',
+  'url' => 'http://www.zhuyetang.site',
   'paths' => 
   array (
     'api' => 'api',

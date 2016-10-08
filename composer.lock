@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fc68977a9b8094c6bfb1e193d948a7ec",
-    "content-hash": "e6a06883268aa19e14a3e6630c8906e6",
+    "hash": "43f719a4229f8fe7f70b87e6ef393233",
+    "content-hash": "06edd2c1faf9ca73b2998756d5f747e5",
     "packages": [
         {
             "name": "danielstjules/stringy",
@@ -2708,6 +2708,55 @@
             "time": "2015-03-20 14:31:23"
         },
         {
+            "name": "jsthon/flarum-ext-simplified-chinese",
+            "version": "v0.1.0-beta.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Flarum-Chinese/flarum-ext-simplified-chinese.git",
+                "reference": "3b2ae7142f77b0eda343d0d25553d3f2bfe20976"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Flarum-Chinese/flarum-ext-simplified-chinese/zipball/3b2ae7142f77b0eda343d0d25553d3f2bfe20976",
+                "reference": "3b2ae7142f77b0eda343d0d25553d3f2bfe20976",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.5"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Simplified Chinese",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#DE2910",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "zh",
+                    "title": "简体中文"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jsthon Wong",
+                    "email": "jsthon@outlook.com"
+                }
+            ],
+            "description": "Simplified Chinese language pack.",
+            "keywords": [
+                "locale"
+            ],
+            "time": "2016-04-09 10:34:05"
+        },
+        {
             "name": "league/flysystem",
             "version": "1.0.27",
             "source": {
@@ -4448,7 +4497,9 @@
     ],
     "aliases": [],
     "minimum-stability": "beta",
-    "stability-flags": [],
+    "stability-flags": {
+        "jsthon/flarum-ext-simplified-chinese": 10
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
