@@ -444,8 +444,8 @@ core:
     edit: 编辑
     email: 邮箱
     load_more: 载入更多
-    log_in: 登入
-    log_out: 登出
+    log_in: 登录
+    log_out: 退出 
     mark_all_as_read: 标记所有为已读
     notifications: 消息通知
     okay: 完成                                     # Referenced by flarum-tags.yml
