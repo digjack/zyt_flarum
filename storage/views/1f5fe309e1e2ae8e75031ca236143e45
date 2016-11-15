@@ -11,8 +11,8 @@
     <script type="text/javascript">
         var _paq = _paq || [];
         _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
-        _paq.push(["setCookieDomain", "*.www.zhuyetang.site"]);
-        _paq.push(["setDomains", ["*.www.zhuyetang.site"]]);
+        _paq.push(["setCookieDomain", "*.zhuyetang.site"]);
+        _paq.push(["setDomains", ["*.zhuyetang.site"]]);
         _paq.push(['trackPageView']);
         _paq.push(['enableLinkTracking']);
         (function() {
