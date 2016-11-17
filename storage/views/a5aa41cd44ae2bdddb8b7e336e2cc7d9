@@ -2,7 +2,7 @@
 $url = app('Flarum\Forum\UrlGenerator');
 ?>
 <div class="container">
-    <h2><?php echo e($translator->trans('core.ref.all_discussions')); ?></h2>
+    <h2><?php echo e($translator->trans('core.views.index.all_discussions_heading')); ?></h2>
 
     <ul>
         <?php foreach($document->data as $discussion): ?>
@@ -17,5 +17,5 @@ $url = app('Flarum\Forum\UrlGenerator');
         <?php endforeach; ?>
     </ul>
 
-    <a href="<?php echo e($url->toRoute('index')); ?>?page=<?php echo e($page + 1); ?>"><?php echo e($translator->trans('core.basic.next_page_button')); ?> &raquo;</a>
+    <a href="<?php echo e($url->toRoute('index')); ?>?page=<?php echo e($page + 1); ?>"><?php echo e($translator->trans('core.views.index.next_page_button')); ?> &raquo;</a>
 </div>

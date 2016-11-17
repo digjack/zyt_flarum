@@ -40,7 +40,8 @@
         "flarum/flarum-ext-subscriptions": "^0.1.0",
         "flarum/flarum-ext-suspend": "^0.1.0",
         "flarum/flarum-ext-tags": "^0.1.0",
-        "jsthon/flarum-ext-simplified-chinese": "^0.1.0@beta"
+        "jsthon/flarum-ext-simplified-chinese": "^0.1.0@beta",
+        "flagrow/flarum-ext-analytics": "^0.5.0"
     },
     "require-dev": {
         "franzl/studio": "^0.10.0"

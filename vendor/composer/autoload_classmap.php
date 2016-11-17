@@ -12,8 +12,5 @@ return array(
     'SessionHandlerInterface' => $vendorDir . '/symfony/http-foundation/Resources/stubs/SessionHandlerInterface.php',
     'TijsVerkoyen\\Akismet\\Akismet' => $vendorDir . '/tijsverkoyen/akismet/Akismet.php',
     'TijsVerkoyen\\Akismet\\Exception' => $vendorDir . '/tijsverkoyen/akismet/Exception.php',
-    'Whoops\\Module' => $vendorDir . '/filp/whoops/src/deprecated/Zend/Module.php',
-    'Whoops\\Provider\\Zend\\ExceptionStrategy' => $vendorDir . '/filp/whoops/src/deprecated/Zend/ExceptionStrategy.php',
-    'Whoops\\Provider\\Zend\\RouteNotFoundStrategy' => $vendorDir . '/filp/whoops/src/deprecated/Zend/RouteNotFoundStrategy.php',
     'lessc' => $vendorDir . '/oyejorge/less.php/lessc.inc.php',
 );

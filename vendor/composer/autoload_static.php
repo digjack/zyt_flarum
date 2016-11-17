@@ -30,6 +30,10 @@ class ComposerStaticInitda3b68944b7d5d5e8e3e785e744c88bb
             'Zend\\Escaper\\' => 13,
             'Zend\\Diactoros\\' => 15,
         ),
+        'W' => 
+        array (
+            'Whoops\\' => 7,
+        ),
         'T' => 
         array (
             'Tobscure\\JsonApi\\' => 17,
@@ -68,6 +72,7 @@ class ComposerStaticInitda3b68944b7d5d5e8e3e785e744c88bb
         'I' => 
         array (
             'Intervention\\Image\\' => 19,
+            'Interop\\Http\\Middleware\\' => 24,
             'Illuminate\\View\\' => 16,
             'Illuminate\\Validation\\' => 22,
             'Illuminate\\Support\\' => 19,
@@ -110,11 +115,13 @@ class ComposerStaticInitda3b68944b7d5d5e8e3e785e744c88bb
             'Flarum\\Approval\\' => 16,
             'Flarum\\Akismet\\' => 15,
             'Flarum\\' => 7,
+            'Flagrow\\Analytics\\' => 18,
             'FastRoute\\' => 10,
         ),
         'D' => 
         array (
             'Doctrine\\Common\\Cache\\' => 22,
+            'Doctrine\\Common\\Annotations\\' => 28,
             'Doctrine\\Common\\' => 16,
             'Dflydev\\FigCookies\\' => 19,
         ),
@@ -140,6 +147,10 @@ class ComposerStaticInitda3b68944b7d5d5e8e3e785e744c88bb
         'Zend\\Diactoros\\' => 
         array (
             0 => __DIR__ . '/..' . '/zendframework/zend-diactoros/src',
+        ),
+        'Whoops\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/filp/whoops/src/Whoops',
         ),
         'Tobscure\\JsonApi\\' => 
         array (
@@ -212,8 +223,8 @@ class ComposerStaticInitda3b68944b7d5d5e8e3e785e744c88bb
         'League\\OAuth2\\Client\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/oauth2-client/src',
-            1 => __DIR__ . '/..' . '/league/oauth2-facebook/src',
-            2 => __DIR__ . '/..' . '/league/oauth2-github/src',
+            1 => __DIR__ . '/..' . '/league/oauth2-github/src',
+            2 => __DIR__ . '/..' . '/league/oauth2-facebook/src',
         ),
         'League\\OAuth1\\' => 
         array (
@@ -226,6 +237,10 @@ class ComposerStaticInitda3b68944b7d5d5e8e3e785e744c88bb
         'Intervention\\Image\\' => 
         array (
             0 => __DIR__ . '/..' . '/intervention/image/src/Intervention/Image',
+        ),
+        'Interop\\Http\\Middleware\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/http-interop/http-middleware/src',
         ),
         'Illuminate\\View\\' => 
         array (
@@ -371,6 +386,10 @@ class ComposerStaticInitda3b68944b7d5d5e8e3e785e744c88bb
         array (
             0 => __DIR__ . '/..' . '/flarum/core/src',
         ),
+        'Flagrow\\Analytics\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/flagrow/flarum-ext-analytics/src',
+        ),
         'FastRoute\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/fast-route/src',
@@ -378,6 +397,10 @@ class ComposerStaticInitda3b68944b7d5d5e8e3e785e744c88bb
         'Doctrine\\Common\\Cache\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/cache/lib/Doctrine/Common/Cache',
+        ),
+        'Doctrine\\Common\\Annotations\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/annotations/lib/Doctrine/Common/Annotations',
         ),
         'Doctrine\\Common\\' => 
         array (
@@ -394,13 +417,6 @@ class ComposerStaticInitda3b68944b7d5d5e8e3e785e744c88bb
     );
 
     public static $prefixesPsr0 = array (
-        'W' => 
-        array (
-            'Whoops' => 
-            array (
-                0 => __DIR__ . '/..' . '/filp/whoops/src',
-            ),
-        ),
         'S' => 
         array (
             'SecurityLib' => 
@@ -440,10 +456,6 @@ class ComposerStaticInitda3b68944b7d5d5e8e3e785e744c88bb
             array (
                 0 => __DIR__ . '/..' . '/doctrine/collections/lib',
             ),
-            'Doctrine\\Common\\Annotations\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/doctrine/annotations/lib',
-            ),
         ),
     );
 
@@ -454,9 +466,6 @@ class ComposerStaticInitda3b68944b7d5d5e8e3e785e744c88bb
         'SessionHandlerInterface' => __DIR__ . '/..' . '/symfony/http-foundation/Resources/stubs/SessionHandlerInterface.php',
         'TijsVerkoyen\\Akismet\\Akismet' => __DIR__ . '/..' . '/tijsverkoyen/akismet/Akismet.php',
         'TijsVerkoyen\\Akismet\\Exception' => __DIR__ . '/..' . '/tijsverkoyen/akismet/Exception.php',
-        'Whoops\\Module' => __DIR__ . '/..' . '/filp/whoops/src/deprecated/Zend/Module.php',
-        'Whoops\\Provider\\Zend\\ExceptionStrategy' => __DIR__ . '/..' . '/filp/whoops/src/deprecated/Zend/ExceptionStrategy.php',
-        'Whoops\\Provider\\Zend\\RouteNotFoundStrategy' => __DIR__ . '/..' . '/filp/whoops/src/deprecated/Zend/RouteNotFoundStrategy.php',
         'lessc' => __DIR__ . '/..' . '/oyejorge/less.php/lessc.inc.php',
     );
 
